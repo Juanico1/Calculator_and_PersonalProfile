@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Contenedor */
+  .contenedor {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  /* Imagen de perfil */
+  .imagen_perfil {
+    width: 150px;
+    border-radius: 20%;
+    margin: 20px 0;
+  }
+  
+  /* Lista de hobbies */
+  ul {
+    list-style-type: disc;
+    text-align: left;
+    padding-left: 40px;
+  }
+  
+  /* Botón de tema */
+  #cambiar_tema {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #af4c4c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #cambiar_tema:hover {
+    background-color: #e41313;
+  }
+  
+  /* Modo oscuro */
+  .modo_oscuro {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+  
+  .modo_oscuro .contenedor {
+    background-color: #1e1e1e;
+  }
+  
+  .modo_oscuro #cambiar_tema {
+    background-color: #ddd;
+    color: #111;
+  }
